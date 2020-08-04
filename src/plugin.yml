@@ -1,0 +1,12 @@
+name: ImAdmin
+version: 1.0
+author: MinecraftJulMan
+main: fr.minecraftjulman.imadmin.Main
+api-version: 1.13
+commands:
+  admin:
+    description: admin
+    permission: ia.admin.run
+permissions:
+  ia.admin.*:
+    default: op
